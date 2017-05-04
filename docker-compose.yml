@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  hellocooper:
+    image: hellocooper
+    build:
+      context: ./HelloCooper
+      dockerfile: Dockerfile
